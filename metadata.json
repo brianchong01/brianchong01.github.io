@@ -1,0 +1,8 @@
+{
+  "name": "Brian Chong Portfolio",
+  "description": "A high-end, responsive UI/UX portfolio for Brian Chong featuring a Figma-inspired aesthetic, light/dark mode, and smooth animations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
