@@ -11,7 +11,7 @@ export interface Project {
   category: string;
   role?: string;
   activities?: string[];
-  process?: string;
+  process?: string[];
 }
 
 export interface Experience {

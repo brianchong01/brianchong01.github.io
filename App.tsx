@@ -228,7 +228,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="pt-16 pb-0 mb-0 border-t border-white/10 text-center reveal">
-              <p className="text-white font-bold text-lg tracking-wide">
+              <p className="text-white text-md tracking-wide">
                 Made by Brian Chong
               </p>
             </div>

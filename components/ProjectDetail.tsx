@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Project } from "../types";
 
 interface ProjectDetailProps {
@@ -7,6 +7,10 @@ interface ProjectDetailProps {
 }
 
 const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, onBack }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-transparent pt-32 pb-20 animate-fade-in">
       <div className="container mx-auto px-6">
@@ -110,9 +114,29 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, onBack }) => {
               <h2 className="text-3xl font-extrabold mb-6">
                 Project Process & Description
               </h2>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-xl whitespace-pre-line">
-                {project.process || project.description.join("\n\n")}
-              </p>
+              {project.process ? (
+                <div className="space-y-2">
+                  {project.process.map((paragraph, index) => (
+                    <p
+                      key={index}
+                      className="text-slate-600 dark:text-slate-400 leading-relaxed text-lg lh-sm"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <div className="space-y-2">
+                  {project.description.map((desc, index) => (
+                    <p
+                      key={index}
+                      className="text-slate-600 dark:text-slate-400 leading-relaxed text-lg lh-sm"
+                    >
+                      {desc}
+                    </p>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </div>

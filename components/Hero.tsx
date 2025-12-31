@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { RESUME_LINK } from "../constants";
+import linkedInPic from "../images/linkedin-pic.jpeg";
 
 const Hero: React.FC = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -182,17 +183,20 @@ const Hero: React.FC = () => {
             style={{ animationDelay: "0.4s" }}
           >
             <div className="relative group">
-              <div className="w-72 h-72 md:w-[500px] md:h-[500px] rounded-[3.5rem] overflow-hidden shadow-2xl transition-all duration-500 group-hover:rotate-0 rotate-1 bg-white/60 dark:bg-slate-800 border-4 border-white dark:border-slate-700">
-                <img
-                  src="../images/linkedin-pic.jpeg"
-                  alt="Brian Chong"
-                  className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
-                  // onError={(e) => {
-                  //   (e.target as HTMLImageElement).src =
-                  //     "https://raw.githubusercontent.com/Martin-Ukh/portfolio-assets/main/brian_chong_portrait.jpg";
-                  // }}
-                />
-              </div>
+              <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
+                <div className="w-72 h-72 md:w-[500px] md:h-[500px] rounded-[3.5rem] overflow-hidden shadow-2xl transition-all duration-500 group-hover:rotate-0 rotate-1 bg-white/60 dark:bg-slate-800 border-4 border-white dark:border-slate-700">
+                  <img
+                    src={linkedInPic}
+                    alt="Brian Chong"
+                    className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
+                    // onError={(e) => {
+                    //   (e.target as HTMLImageElement).src =
+                    //     "https://raw.githubusercontent.com/Martin-Ukh/portfolio-assets/main/brian_chong_portrait.jpg";
+                    // }}
+                  />
+                </div>
+              </a>
+
               <a
                 href={linkedInUrl}
                 target="_blank"
