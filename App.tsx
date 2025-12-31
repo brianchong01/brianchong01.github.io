@@ -159,21 +159,21 @@ const App: React.FC = () => {
           className="relative pt-32 pb-24 bg-slate-950 text-white transition-colors overflow-hidden"
         >
           {/* Enhanced Background Animations in Footer */}
-          <div className="absolute top-[-5%] left-[-5%] w-[45vw] h-[45vw] bg-figma-purple/10 rounded-full blur-[60px] md:blur-[130px] animate-blob"></div>
+          <div className="absolute top-[-5%] left-[-5%] w-[45vw] h-[45vw] bg-figma-purple/10 rounded-full blur-[60px] md:blur-[180px] animate-blob"></div>
           <div
             className="absolute bottom-[5%] left-[0%] w-[40vw] h-[40vw] bg-figma-blue/12 rounded-full blur-[50px] md:blur-[110px] animate-blob"
             style={{ animationDelay: "2s" }}
           ></div>
           <div
-            className="absolute top-[-10%] right-[0%] w-[35vw] h-[35vw] bg-figma-green/10 rounded-full blur-[55px] md:blur-[120px] animate-blob-fast"
+            className="absolute top-[-10%] right-[0%] w-[35vw] h-[35vw] bg-figma-green/10 rounded-full blur-[55px] md:blur-[150px] animate-blob-fast"
             style={{ animationDelay: "4s" }}
           ></div>
           <div
-            className="absolute bottom-[0%] right-[0%] w-[50vw] h-[50vw] bg-figma-pink/15 rounded-full blur-[65px] md:blur-[140px] animate-blob"
+            className="absolute bottom-[0%] right-[0%] w-[50vw] h-[50vw] bg-figma-pink/15 rounded-full blur-[65px] md:blur-[170px] animate-blob"
             style={{ animationDelay: "6s" }}
           ></div>
           <div
-            className="absolute top-[20%] right-[5%] w-[30vw] h-[30vw] bg-figma-orange/12 rounded-full blur-[45px] md:blur-[100px] animate-blob"
+            className="absolute top-[20%] right-[5%] w-[30vw] h-[30vw] bg-figma-orange/12 rounded-full blur-[45px] md:blur-[110px] animate-blob"
             style={{ animationDelay: "8s" }}
           ></div>
 

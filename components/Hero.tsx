@@ -95,14 +95,14 @@ const Hero: React.FC = () => {
     >
       {/* Background Blobs */}
       <div
-        className="absolute top-[5%] left-[0%] w-[45vw] h-[45vw] bg-figma-purple/15 rounded-full blur-[100px] animate-blob"
+        className="absolute top-[5%] left-[0%] w-[45vw] h-[45vw] bg-figma-purple/15 rounded-full blur-[60px] md:blur-[120px] animate-blob"
         style={{
           transform: getTransform(60),
           transition: "transform 0.3s ease-out",
         }}
       ></div>
       <div
-        className="absolute top-[30%] right-[-10%] w-[50vw] h-[40vw] bg-figma-green/12 rounded-[120px] blur-[120px] animate-blob"
+        className="absolute top-[30%] right-[-10%] w-[50vw] h-[40vw] bg-figma-green/12 rounded-[120px] blur-[70px] md:blur-[140px] animate-blob"
         style={{
           animationDelay: "2s",
           transform: getTransform(-80),
@@ -110,7 +110,7 @@ const Hero: React.FC = () => {
         }}
       ></div>
       <div
-        className="absolute bottom-[-15%] left-[10%] w-[55vw] h-[45vw] bg-figma-blue/15 rounded-full blur-[140px] animate-blob"
+        className="absolute bottom-[-15%] left-[10%] w-[55vw] h-[45vw] bg-figma-blue/15 rounded-full blur-[80px] md:blur-[160px] animate-blob"
         style={{
           animationDelay: "4s",
           transform: getTransform(50),
@@ -118,7 +118,7 @@ const Hero: React.FC = () => {
         }}
       ></div>
       <div
-        className="absolute top-[10%] right-[10%] w-[25vw] h-[60vw] bg-figma-orange/10 rounded-full blur-[110px] animate-blob-fast"
+        className="absolute top-[10%] right-[10%] w-[25vw] h-[60vw] bg-figma-orange/10 rounded-full blur-[65px] md:blur-[130px] animate-blob-fast"
         style={{
           animationDelay: "3s",
           transform: getTransform(-40),
@@ -126,7 +126,7 @@ const Hero: React.FC = () => {
         }}
       ></div>
       <div
-        className="absolute bottom-[10%] right-[0%] w-[35vw] h-[35vw] bg-figma-pink/12 rounded-[80px] blur-[90px] animate-blob"
+        className="absolute bottom-[10%] right-[0%] w-[35vw] h-[35vw] bg-figma-pink/12 rounded-[80px] blur-[55px] md:blur-110px] animate-blob"
         style={{
           animationDelay: "5s",
           transform: getTransform(70),
