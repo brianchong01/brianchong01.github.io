@@ -144,7 +144,7 @@ const Navbar: React.FC<{ onNavClick?: (href: string) => void }> = ({
           ))}
 
           <div className="mt-auto pb-20 flex flex-col gap-4">
-            <p className="text-xs font-bold uppercase tracking-widest text-slate-400">
+            <p className="text-xs font-bold uppercase tracking-widest text-slate-500">
               Socials
             </p>
             <div className="flex gap-6">
