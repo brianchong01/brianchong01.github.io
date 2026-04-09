@@ -43,7 +43,7 @@ export const AWS_ACADEMY_CERT = aws_academy_cert;
 export const NTU_CERT = ntu_cert;
 
 export const RESUME_LINK =
-  "https://1drv.ms/b/c/c4096db1fd494ccb/IQDLTEn9sW0JIIDElB4AAAAAAdPSOrIaoutEZAzEYXun2pw?e=XsHQrl";
+  "https://1drv.ms/w/c/c4096db1fd494ccb/IQDCYw-7QlVtSJMadH4u7uAfAaJfxjdC-kR7ZVEhMUOfvOY?e=0yiHeX";
 export const LOR_LINK =
   "https://1drv.ms/b/c/c4096db1fd494ccb/IQDoHX5hwYwOSomgFaZQBwBMAXIpICw_QWcK3vDB_3tOwRs?e=ZNJxdT";
 
